@@ -1,0 +1,96 @@
+
+/* Style for "Rectangle" */
+html {
+  --colors-light-white: #00ffeb;
+  --color-dark-cranberry: #bb4079;
+  --color-dark-mint: #03a17b;
+  --colors-light-white: rgba(153, 164, 182, 0.21);
+  --color-dark-orange: #e04a17;
+  --color-normal-lime: #c1eb1d;
+  --color-dark-blueberry: #0077db;
+  --color-pure-white: #ffffff;
+  --colors-light-gray: #f6f9fc;
+  --color-darkest-raspberry: #8e003f;
+  --color-pitch-black: #000000;
+  --color-midnight-blue: #202d3d;
+  --color-darkest-apple: #027722;
+  --color-dark-apple: #04aa42;
+  --color-lightest-orange: #fbe9e7;
+  --color-light-orange: #fa8a64;
+  --colors: */;
+  --color-gray-heather: #bbc1c7;
+  --color-dark-plum: #5d2d79;
+  --color-dark-lime: #a6c100;
+  --color-lightest-lime: #f8fee7;
+  --color-lightest-raspberry: #ffe4e9;
+  --color-darkest-yellow: #f37f19;
+  --color-darkest-blueberry: #0048aa;
+  --color-lightest-mint: #dff9f5;
+  --color-light-blackberry: #6384e0;
+  --color-normal-plum: #883888;
+  --color-translucent-1: rgba(127, 127, 127, 0.5);
+  --color-deep-blue: #001424;
+  --color-gray-chateau: #9198a0;
+  --color-dark-yellow: #fac031;
+  --color-lightest-plum: #f0e7f0;
+  --color-dark-blackberry: #003db7;
+  --light-white: #99a4b6;
+  --color-red-1: #f51d16;
+  --color-normal-apple: #26cd58;
+  --color-light-lime: #d3f36b;
+  --color-light-yellow: #fdf177;
+  --color-light-apple: #74df8b;
+  --color-gray-raven: #6e7782;
+  --color-lightest-blackberry: #e7eafa;
+  --color-white-smoke: #f2f3f7;
+  --color-gray-1: #4b4b4b;
+  --color-darkest-mint: #00724d;
+  --color-lightest-apple: #e8faeb;
+  --color-darkest-cranberry: #7f3363;
+  --colors-yellow: #ffe200;
+  --color-light-raspberry: #f55f7e;
+  --color-blue-1: #2c3d5b;
+  --color-lightest-cranberry: #f9e7f0;
+  --color-darkest-plum: #471c61;
+  --color-lightest-yellow: #fffde8;
+  --color-light-blueberry: #45b6fc;
+  --color-darkest-orange: #ba360a;
+  --color-normal-cranberry: #e54887;
+  --color-darkest-lime: #808201;
+  --color-light-cranberry: #e677ad;
+  --color-normal-orange: #f95721;
+  --color-mts-red: #e30611;
+  --color-normal-yellow: #fbe739;
+  --color-dark-raspberry: #c51345;
+  --color-normal-blackberry: #014fce;
+  --color-normal-raspberry: #ea1f49;
+  --colors-mtr-red--selected: #e30613;
+  --color-red-2: #c90000;
+  --color-light-mint: #00d9bc;
+  --colors-light--gray: rgba(225, 235, 244, 0.31);
+  --colors-light-gray: #e1ebf4;
+  --color-normal-mint: #00c19b;
+  --color-lightest-blueberry: #e1f3fe;
+  --color-darkest-blackberry: #002094;
+  --color-link-water: #e2e5eb;
+  --colors-light-blue: #4f5e70;
+  --color-normal-blueberry: #0097fd;
+  --color-light-plum: #a86ea7;
+}
+
+body {
+  background-color: rgba(242, 243, 247, 0.5);
+}
+
+.graph {
+  width: 90%;
+  height: 386px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--color-link-water);
+  background-color: var(--color-pure-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+}
